@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Space Theme (fixed) */
+  :root {
+    --bg-primary: #071025; /* deep space navy */
+    --bg-secondary: #0b1b2b; /* darker nebula */
+    --text-primary: #e6f0ff; /* faint starlight */
+    --accent: #7dd3fc;       /* sky glow */
+  }
+}

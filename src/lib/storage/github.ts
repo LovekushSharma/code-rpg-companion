@@ -7,7 +7,7 @@
 //   )
 // }
 
-import { getAIService } from "./aiService/factory"
+import { getAIService } from "../aiService/factory"
 
 // interface QuestData {
 //   title: string

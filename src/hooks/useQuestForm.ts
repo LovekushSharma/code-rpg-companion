@@ -3,7 +3,7 @@ import { useState } from "react"
 
 import type { AIAnalysisResult, AIService } from "../lib/aiService/ai"
 import { getAIService } from "../lib/aiService/factory"
-import { pushToGitHub } from "../lib/github"
+import { pushToGitHub } from "../lib/storage/github"
 
 export const useQuestForm = () => {
   const [formData, setFormData] = useState({
